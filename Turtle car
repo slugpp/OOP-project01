@@ -1,7 +1,54 @@
-echo "# OOP-project" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/slugpp/OOP-project.git
-git push -u origin main
+import ColabTurtle.Turtle
+mike = ColabTurtle.Turtle
+mike.initializeTurtle(initial_speed=10)
+mike.left(90)
+mike.forward(100)
+mike.right(90)
+for i in range (54): #first wheels
+  mike.forward(10)
+  mike.left(10)
+mike.right(90)
+mike.forward(50)
+mike.right(90)
+
+mike.left(75)
+mike.right(5)
+mike.forward(50)
+mike.right(25)
+mike.forward(50)
+mike.right(45)
+mike.forward(50)
+mike.right(90)
+mike.forward(200)
+mike.left(75)
+mike.forward(80)
+mike.right(75)
+mike.forward(200)
+mike.right(75)
+mike.forward(80)
+mike.left(75)
+mike.back(100)
+mike.left(90)
+mike.forward(60)
+mike.right(90)
+mike.forward(85)
+mike.right(75)
+mike.forward(60)
+mike.left(75)
+mike.right(5)
+mike.forward(200)
+mike.right(85)
+mike.forward(40)
+mike.left(65)
+mike.forward(20)
+mike.right(75)
+mike.forward(50)
+mike.right(80)
+mike.forward(100)
+mike.right(90)
+for i in range (55):
+  mike.forward(10)
+  mike.left(10)
+mike.right(100)
+mike.forward(100)
+mike.hideturtle()
